@@ -11,7 +11,6 @@ fun main() {
     println("Suma2: $suma")
     val promedio = suma / 3
     println("Promedio: $promedio")
-
 }
 */
 
@@ -27,9 +26,9 @@ class Person(val name: String, val age: Int, val hobby: String?, val referrer: P
         println("Name: $name")
         println("Age: $age")
         println("Like to: $hobby")
-        if(referrer == null){
+        if (referrer == null) {
             println("Doesn't have a referrer")
-        }else{
+        } else {
             println("Has a referrer named ${referrer.name}, Has a referrer named $hobby ")
         }
 
